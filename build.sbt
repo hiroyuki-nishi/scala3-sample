@@ -37,7 +37,7 @@ lazy val root = (project in file("."))
   )
   .settings(
     commands += Command.command("assemblyAll") { state =>
-      "notifyDaysShift / assembly" ::
+      "sample / assembly" ::
         state
     }
   )
